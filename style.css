@@ -346,9 +346,38 @@ body::after {
         font-size: 1rem;
     }
 
-    .vertical-url {
-        display: none;
-        /* Hide on mobile as it overlaps */
+    /* Hide desktop elements on mobile */
+    .vertical-url-desktop {
+        display: none !important;
+    }
+
+    .heart-bg-desktop {
+        display: none !important;
+    }
+
+    .bg-video-desktop {
+        display: none !important;
+    }
+
+    .mark-image-desktop {
+        display: none !important;
+    }
+
+    /* Show mobile elements */
+    .heart-bg-mobile {
+        display: block !important;
+    }
+
+    .bg-video-mobile {
+        display: block !important;
+    }
+
+    .mark-image-mobile {
+        display: block !important;
+    }
+
+    .url-image-mobile {
+        display: block !important;
     }
 
     .heart-bg {
@@ -374,7 +403,6 @@ body::after {
     .controls-right {
         bottom: 25px;
         flex-direction: column;
-        /* Stack buttons if needed, or keep row */
     }
 
     .controls {
@@ -389,9 +417,31 @@ body::after {
 
     .control-button {
         padding: 10px 15px;
-        /* Larger touch target */
         font-size: 0.8rem;
         background: rgba(255, 250, 240, 0.5);
-        /* Semi-transparent background for readability */
     }
+}
+
+/* Hide mobile elements on desktop (default) */
+.heart-bg-mobile {
+    display: none;
+}
+
+.bg-video-mobile {
+    display: none;
+}
+
+.mark-image-mobile {
+    display: none;
+}
+
+.url-image-mobile {
+    display: none;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: auto;
+    z-index: 100;
+    pointer-events: auto;
 }

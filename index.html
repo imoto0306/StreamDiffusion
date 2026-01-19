@@ -10,13 +10,20 @@
 </head>
 
 <body>
-    <!-- Heart Background (Lowest Layer) -->
-    <img src="heart.png" alt="" class="heart-bg">
+    <!-- Heart Background (Lowest Layer) - Desktop -->
+    <img src="heart.png" alt="" class="heart-bg heart-bg-desktop">
+    <!-- Heart Background - Mobile -->
+    <img src="heart_tate.png" alt="" class="heart-bg heart-bg-mobile">
 
-    <!-- Background Video -->
-    <video id="bg-video" class="bg-video" autoplay loop muted playsinline>
-        <source src="BG_alpha.mov?v=6" type="video/quicktime">
-        <source src="BG.webm?v=6" type="video/webm">
+    <!-- Background Video - Desktop -->
+    <video id="bg-video" class="bg-video bg-video-desktop" autoplay loop muted playsinline>
+        <source src="BG_alpha.mov?v=7" type="video/quicktime">
+        <source src="BG.webm?v=7" type="video/webm">
+    </video>
+    <!-- Background Video - Mobile -->
+    <video id="bg-video-mobile" class="bg-video bg-video-mobile" autoplay loop muted playsinline>
+        <source src="BG_tate_alpha.mov?v=1" type="video/quicktime">
+        <source src="BG_tate.webm?v=1" type="video/webm">
     </video>
     <!-- Header -->
     <header class="header">
@@ -31,8 +38,11 @@
     </header>
 
 
-    <!-- Vertical URL Link -->
-    <a href="https://histericlub.com/" class="vertical-url" target="_blank">https://histericlub.com/</a>
+    <!-- Vertical URL Link - Desktop -->
+    <a href="https://histericlub.com/" class="vertical-url vertical-url-desktop"
+        target="_blank">https://histericlub.com/</a>
+    <!-- URL Image - Mobile -->
+    <img src="URL_tate.png" alt="URL" class="url-image-mobile">
 
     <!-- Click Area -->
     <div id="click-area" class="click-area"></div>
@@ -42,7 +52,10 @@
         <button id="clear-button" class="control-button">CLEAR ALL</button>
     </div>
     <div class="controls-center">
-        <img src="mark.png" alt="mark" class="mark-image">
+        <!-- Mark - Desktop -->
+        <img src="mark.png" alt="mark" class="mark-image mark-image-desktop">
+        <!-- Mark - Mobile -->
+        <img src="mark_tate.png" alt="mark" class="mark-image mark-image-mobile">
     </div>
     <div class="controls-right">
         <button id="shuffle-button" class="control-button">SHUFFLE</button>
