@@ -5,8 +5,5 @@
 node_modules/
 
 # Large Video Files (Original Sources)
-*.mov
-# Keep webm for web deployment
-!BG.webm
-!video1.webm
-!video2.webm
+# *.mov (Removed exclusion as files are now compressed)
+.vercel

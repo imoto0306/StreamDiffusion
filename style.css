@@ -324,32 +324,56 @@ body::after {
 @media (max-width: 768px) {
     .header {
         padding: 15px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        left: 0;
+        text-align: center;
     }
 
     .nav {
-        gap: 20px;
+        right: 0;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .vertical-url {
+        display: none; /* Hide on mobile as it overlaps */
     }
 
     .video-popup video {
-        max-width: 625px;
-        max-height: 450px;
+        max-width: 90vw;
+        max-height: 60vh;
     }
 
     .controls,
     .controls-right {
-        bottom: 15px;
+        bottom: 25px;
+        flex-direction: column; /* Stack buttons if needed, or keep row */
     }
 
     .controls {
         left: 20px;
+        gap: 10px;
     }
 
     .controls-right {
         right: 20px;
+        gap: 10px;
     }
 
     .control-button {
-        padding: 8px 15px;
-        font-size: 0.7rem;
+        padding: 10px 15px; /* Larger touch target */
+        font-size: 0.8rem;
+        background: rgba(255, 250, 240, 0.5); /* Semi-transparent background for readability */
     }
 }
