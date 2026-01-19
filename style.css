@@ -366,14 +366,17 @@ body::after {
     /* Show mobile elements */
     .heart-bg-mobile {
         display: block !important;
+        top: calc(45% + 15px) !important;
     }
 
     .bg-video-mobile {
         display: block !important;
+        top: calc(45% + 20px) !important;
     }
 
     .mark-image-mobile {
         display: block !important;
+        z-index: 9998 !important;
     }
 
     .url-image-mobile {
