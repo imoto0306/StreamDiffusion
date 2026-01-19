@@ -100,6 +100,7 @@ body::after {
     opacity: 0.8;
     transition: opacity 0.3s ease;
     display: block;
+    filter: brightness(0);
 }
 
 .mark-image:hover {
@@ -344,6 +345,10 @@ body::after {
 
     .nav-link {
         font-size: 1rem;
+    }
+
+    .header {
+        z-index: 9999 !important;
     }
 
     /* Hide desktop elements on mobile */
