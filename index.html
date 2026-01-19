@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HISTERI CLUB">
+    <title>HISTERI CLUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Heart Background (Lowest Layer) -->
+    <img src="heart.png" alt="" class="heart-bg">
+
+    <!-- Background Video -->
+    <video id="bg-video" class="bg-video" autoplay loop muted playsinline>
+        <source src="BG.webm" type="video/webm">
+        <source src="BG.mov" type="video/quicktime">
+    </video>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">histericlub</a>
+        <nav class="nav">
+            <a href="about.html" class="nav-link">ABOUT</a>
+            <a href="news.html" class="nav-link">NEWS</a>
+            <a href="archive.html" class="nav-link">ARCHIVE</a>
+            <a href="shop.html" class="nav-link">SHOP</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+
+    <!-- Vertical URL Link -->
+    <a href="https://hystericlub.xyz/" class="vertical-url" target="_blank">https://hystericlub.xyz/</a>
+
+    <!-- Click Area -->
+    <div id="click-area" class="click-area"></div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="clear-button" class="control-button">CLEAR ALL</button>
+    </div>
+    <div class="controls-center">
+        <img src="mark.png" alt="mark" class="mark-image">
+    </div>
+    <div class="controls-right">
+        <button id="shuffle-button" class="control-button">SHUFFLE</button>
+        <button id="screenshot-button" class="control-button">SCREENSHOT</button>
+    </div>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
