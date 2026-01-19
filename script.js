@@ -57,17 +57,17 @@ function spawnVideo(x, y) {
     video.muted = true;
     video.playsInline = true;
 
-    // WebM source (Chrome, Firefox, Edge)
-    const sourceWebm = document.createElement('source');
-    sourceWebm.src = `${videoName}.webm?v=2`;
-    sourceWebm.type = 'video/webm';
-    video.appendChild(sourceWebm);
-
-    // MOV source (Safari)
+    // MOV source (Safari - Prioritized for Transparency)
     const sourceMov = document.createElement('source');
-    sourceMov.src = `${videoName}.mov?v=2`;
+    sourceMov.src = `${videoName}.mov?v=3`;
     sourceMov.type = 'video/quicktime';
     video.appendChild(sourceMov);
+
+    // WebM source (Chrome, Firefox, Edge)
+    const sourceWebm = document.createElement('source');
+    sourceWebm.src = `${videoName}.webm?v=3`;
+    sourceWebm.type = 'video/webm';
+    video.appendChild(sourceWebm);
 
     videoPopup.appendChild(video);
 
