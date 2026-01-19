@@ -387,7 +387,7 @@ body::after {
         position: fixed !important;
         left: 20px !important;
         bottom: 100px !important;
-        width: 120px !important;
+        width: 560px !important;
         height: auto !important;
         z-index: 100 !important;
     }
