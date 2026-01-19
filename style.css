@@ -347,7 +347,20 @@ body::after {
     }
 
     .vertical-url {
-        display: none; /* Hide on mobile as it overlaps */
+        display: none;
+        /* Hide on mobile as it overlaps */
+    }
+
+    .heart-bg {
+        width: auto !important;
+        height: 100vh !important;
+        max-height: 100vh !important;
+    }
+
+    .bg-video {
+        width: auto !important;
+        height: 100vh !important;
+        max-height: 100vh !important;
     }
 
     .video-popup video {
@@ -358,7 +371,8 @@ body::after {
     .controls,
     .controls-right {
         bottom: 25px;
-        flex-direction: column; /* Stack buttons if needed, or keep row */
+        flex-direction: column;
+        /* Stack buttons if needed, or keep row */
     }
 
     .controls {
@@ -372,8 +386,10 @@ body::after {
     }
 
     .control-button {
-        padding: 10px 15px; /* Larger touch target */
+        padding: 10px 15px;
+        /* Larger touch target */
         font-size: 0.8rem;
-        background: rgba(255, 250, 240, 0.5); /* Semi-transparent background for readability */
+        background: rgba(255, 250, 240, 0.5);
+        /* Semi-transparent background for readability */
     }
 }
