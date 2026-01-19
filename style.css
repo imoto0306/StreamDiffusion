@@ -385,8 +385,8 @@ body::after {
     .url-image-mobile {
         display: block !important;
         position: fixed !important;
-        left: 7px !important;
-        bottom: 80px !important;
+        left: 10px !important;
+        bottom: 30px !important;
         width: 560px !important;
         height: auto !important;
         z-index: 100 !important;
