@@ -394,7 +394,7 @@ body::after {
         bottom: 30px !important;
         width: 560px !important;
         height: auto !important;
-        z-index: 100 !important;
+        z-index: 3 !important;
     }
 
     .heart-bg {
