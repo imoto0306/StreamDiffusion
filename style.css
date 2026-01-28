@@ -172,7 +172,7 @@ body::after {
 .nav-link {
     font-family: Helvetica, Arial, sans-serif;
     font-size: calc(1.65rem - 2px);
-    font-weight: 700;
+    font-weight: 600;
     color: #333631;
     text-decoration: none;
     letter-spacing: 0.05em;
