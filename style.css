@@ -148,7 +148,7 @@ body::after {
 
 .logo {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: calc(3rem + 15px);
+    font-size: calc((3rem + 15px) * 0.85);
     font-weight: 700;
     color: #333631;
     text-decoration: none;
