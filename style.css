@@ -175,7 +175,7 @@ body::after {
     font-weight: 600;
     color: #333631;
     text-decoration: none;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.4px;
     transition: opacity 0.3s ease;
 }
 
