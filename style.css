@@ -11,7 +11,7 @@ body {
     height: 100%;
     overflow: hidden;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: #fffaf0;
+    background-color: #f3f3f2;
     color: #000;
 }
 
@@ -435,7 +435,7 @@ body::after {
     .control-button {
         padding: 10px 15px;
         font-size: 0.8rem;
-        background: rgba(255, 250, 240, 0.5);
+        background: rgba(243, 243, 242, 0.5);
     }
 }
 
